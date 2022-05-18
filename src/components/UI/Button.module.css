@@ -1,0 +1,19 @@
+.button {
+  font: inherit;
+  font-family: "Mina", sans-serif;
+  font-weight: 700;
+  color: white;
+  background: linear-gradient(90deg, #083819 1.78%, #388352 101.78%);
+  padding: 0.24rem 1rem;
+  cursor: pointer;
+  border: none;
+  border-radius: 10px;
+  min-width: 110px;
+  width: 260px;
+}
+
+.button:hover,
+.button:active {
+  background: #083819;
+  border-color: #388352;
+}

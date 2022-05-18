@@ -1,0 +1,45 @@
+.layout {
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  height: 400px;
+  width: auto;
+}
+
+.logo-cont {
+  display: flex;
+}
+
+.text {
+  color: #388352;
+  font-family: "Mina", sans-serif;
+  /* font-family: "Mulish", sans-serif; */
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 153px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin-right: 15px;
+}
+
+.trapezium {
+  width: 0px;
+  height: 50px;
+  border-top: 50px solid transparent;
+  border-right: 100px solid #4b9b67;
+  border-bottom: 20px solid transparent;
+}
+
+.btn-cont {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.btn-single {
+  margin: 30px;
+}
